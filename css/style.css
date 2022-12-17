@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.login-form{
+    margin: 20% 0px;
+
+}
+.login-form h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-form form{
+    padding: 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.login-form form h2{
+    text-align: center;
+}
+.c_btn {
+    padding: 8px 22px;
+    background-color: #3277ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+.c_btn:hover{
+    background-color: #1e68fd;
+}
+
+/* transaction area */
+
+#transaction-area{
+    display: none;
+}
+#transaction-area .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10%;
+    justify-content: space-between;
+}
+#transaction-area .row div{
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+#transaction-area h1{
+    font-size: 50px;
+}
+#deposit{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: slateblue;
+}
+#withdraw{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: lightsalmon;
+    
+}
+#balance{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: orange;
+}
+
+/* row2 */
+#transaction-area .row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0px;
+    grid-column-gap: 5%;
+    justify-content: space-between;
+}
+#transaction-area .row2 div{
+    padding: 8%;
+    border-radius: 10px;
+}
+#withdraw-sec{
+    width: 100%;
+    padding: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+#deposit-sec{
+    width: 100%;
+    padding: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.deposit-btn, .withdraw-btn {
+    padding: 8px 22px;
+    background-color: #34c734;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+.deposit-btn:hover, .withdraw-btn:hover{
+    background-color: #2fe42f;
+}
+#transaction-area .row2 input {
+    width: 100%;
+    margin: 5px 0px 30px 0px;
+    background: #F9F9F9;
+    border-radius: .25rem;
+    padding: .6rem 0rem;
+    border: 0.1px solid rgba(0, 0, 0, 0.200);
+}
+#transaction-area .row2 input:focus {
+    outline: 0;
+    border-color: #1e68fd;
+}
